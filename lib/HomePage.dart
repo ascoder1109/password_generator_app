@@ -36,8 +36,9 @@ class _HomePageState extends State<HomePage> {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Color.fromRGBO(12, 6, 35, 1),
-              Color.fromRGBO(12, 6, 35, 1),
+              Color.fromRGBO(1, 50, 80, 1),
+              Color.fromARGB(255, 0, 16, 26),
+              Color.fromRGBO(0, 0, 0, 1)
             ],
           ),
         ),
@@ -58,17 +59,16 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Slider(
-              value: sliderValue.toDouble(),
-              min: 6,
-              max: 26,
-              onChanged: (double newValue) {
-                setState(() {
-                  sliderValue = newValue.round();
-                });
-              },
-              activeColor: const Color.fromRGBO(
-                  36, 106, 255, 1), // Set the active color to blue
-            ),
+                value: sliderValue.toDouble(),
+                min: 6,
+                max: 26,
+                onChanged: (double newValue) {
+                  setState(() {
+                    sliderValue = newValue.round();
+                  });
+                },
+                activeColor: Color(0xFF005488) // Set the active color to blue
+                ),
             const SizedBox(
               height: 12,
             ),
@@ -80,8 +80,8 @@ class _HomePageState extends State<HomePage> {
                 print('Generated password: $generatedPassword');
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromRGBO(
-                    36, 106, 255, 1), // Set the background color to blue
+                backgroundColor: Color.fromRGBO(
+                    1, 50, 80, 1), // Set the background color to blue
                 foregroundColor: Colors.white, // Set the text color to white
               ),
               child: const Text('Generate Password'),
@@ -108,10 +108,10 @@ class _HomePageState extends State<HomePage> {
                 decoration: BoxDecoration(
                   color:
                       const Color.fromARGB(255, 255, 255, 255).withOpacity(0.7),
-                  borderRadius: BorderRadius.circular(27),
+                  borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
-                      color: Color.fromRGBO(11, 10, 38, 1).withOpacity(0.5),
+                      color: Color.fromRGBO(1, 50, 80, 1).withOpacity(0.5),
                       offset: const Offset(0, 4),
                       blurRadius: 5.0,
                     ),
@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(27.0),
+                      borderRadius: BorderRadius.circular(20.0),
                       borderSide: BorderSide.none // Adjust the radius as needed
                       ),
                   contentPadding: const EdgeInsets.symmetric(
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                       horizontal: 12.0), // Adjust padding as needed
 
                   filled: true,
-                  fillColor: Color.fromRGBO(8, 17, 52, 1),
+                  fillColor: Color(0xFF002A44),
 
                   suffixIcon: GestureDetector(
                     onTap: () {
