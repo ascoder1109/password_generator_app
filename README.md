@@ -13,7 +13,9 @@ Open-source code: Contribute to the project's development and stay assured of it
 Download the Password Generator App:
 
 Mega: https://mega.nz/folder/KR1nRYSI#uIu0h4IXFibaUTAzYhAafw
+<br>
 GitHub: https://github.com/ascoder1109/password_generator_app
+<br>
 Protect your online presence with strong, unique passwords. Download the Password Generator App today!
 
 Feel free to modify this text to fit your specific app features and functionalities.
