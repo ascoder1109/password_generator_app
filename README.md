@@ -19,5 +19,5 @@ Protect your online presence with strong, unique passwords. Download the Passwor
 <br>
 Built Using:
 <p>
-<img src="https://docs.flutter.dev/assets/images/shared/brand/flutter/logo+text/horizontal/default.svg">
+<img src="https://docs.flutter.dev/assets/images/shared/brand/flutter/logo+text/horizontal/default.svg" height=20>
 </p>
