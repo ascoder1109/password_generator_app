@@ -16,7 +16,8 @@ GitHub: https://github.com/ascoder1109/password_generator_app
 <br>
 Protect your online presence with strong, unique passwords. Download the Password Generator App today!
 <br>
+<br>
 Built Using:
 <p>
-<img src="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg">
+<img src="https://docs.flutter.dev/assets/images/shared/brand/flutter/logo+text/horizontal/default.svg">
 </p>
